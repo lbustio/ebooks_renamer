@@ -1,6 +1,6 @@
 # eBook Renamer
 
-![eBook Renamer](resources\ebooks_renamer.jpeg)
+![eBook Renamer](resources/ebooks_renamer.jpeg)
 
 This project provides a Python script to automatically rename PDF, EPUB, and DOCX files in a directory based on their embedded titles. The script extracts the title metadata from each file and renames the file accordingly. It uses the PyPDF2 library for PDF files, the ebooklib and BeautifulSoup libraries for EPUB files, and the python-docx library for DOCX files. The process is logged in a log file and output to the console for real-time monitoring.
 
